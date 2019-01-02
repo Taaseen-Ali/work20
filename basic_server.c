@@ -12,7 +12,7 @@ int main() {
   int from_client;
   signal(SIGINT, on_close);
   printf("==============WARNING==============\n");
-  printf("THIS SERVER TURNS ALL B'S INTO C'S\n");
+  printf("THIS SERVER TURNS ALL C'S INTO B'S\n");
   printf("===================================\n\n");
   while(1){
 
